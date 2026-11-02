@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sleesis-kvcache_jd007"
+name = "sleesis-tensor_parallel_split_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列KV Cache 与显存优化工程师·张量并行切分策略的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://sleesis.github.io"
-Repository = "https://github.com/sleesis/kvcache_jd007"
-Issues = "https://github.com/sleesis/kvcache_jd007/issues"
+Repository = "https://github.com/sleesis/tensor_parallel_split_timeline_score"
+Issues = "https://github.com/sleesis/tensor_parallel_split_timeline_score/issues"
 
 [project.scripts]
-kvcache_jd007 = "kvcache_jd007:main"
+tensor_parallel_split_timeline_score = "tensor_parallel_split_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["kvcache_jd007"]
+py-modules = ["tensor_parallel_split_timeline_score"]
